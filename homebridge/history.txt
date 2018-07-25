@@ -170,99 +170,9 @@
   170  sudo reboot
   171  sudo npm -g update npm
   172  sudo npm install -g --unsafe-perm homebridge-config-ui-x
-  173  ping 8.8.8.8
   174  npm install -g npm
   175  sudo npm install -g npm
   176  sudo npm install -g --unsafe-perm homebridge-config-ui-x
   177  sudo vim .homebridge/config.json 
   178  sudo homebridge 
   179  sudo homebridge -I
-  180  sudo halt
-  181  ls
-  182  cd App/
-  183  ls
-  184  irm
-  185  cd irm
-  186  ls
-  187  ls -al
-  188  sl
-  189  ls data/
-  190  vim data/readme.md 
-  191  ls -l
-  192  ls -l data >> data/readme.md 
-  193  vim data/readme.md 
-  194  git add -n
-  195  cd data
-  196  git add -n
-  197  git add .
-  198  ls
-  199  git commit -a -m "irmData追加"
-  200  git config --global user.email "tamiwo.otutama@gmail.com"
-  201  git config --global user.name "tamiwo"
-  202  git commit -a -m "irmData追加"
-  203  git cd ..
-  204  cd ..
-  205  ls
-  206  git push
-  207  ls
-  208  cd data
-  209  ls
-  210  ls -al
-  211  cd ..
-  212  rm .git
-  213  rm -rf .git
-  214  ls
-  215  git clone https://github.com/tamiwo/RaspberryPi/
-  216  ls
-  217  cp data/* RaspberryPi/irm/data/
-  218  cd RaspberryPi/
-  219  git add *
-  220  git commit -a -m "add irmData"
-  221  git push
-  222  cd 
-  223  ls 
-  224  cd App/
-  225  cd irm/
-  226  mv RaspberryPi /home/
-  227  sudo mv RaspberryPi /home/
-  228  cd
-  229  ls
-  230  cd ..
-  231  ls
-  232  mv RaspberryPi pi
-  233* sudo mv RaspberryPi p
-  234  ls
-  235  cd
-  236  s
-  237  ls
-  238  ls -al
-  239  cp .homebridge RaspberryPi
-  240  cp -r .homebridge RaspberryPi
-  241  cd RaspberryPi/
-  242  cd .homebridge/
-  243  ls
-  244  ls -al
-  245  vim config.json 
-  246  ls accessories/
-  247* vim accessories/cachedAccessorie
-  248  vim persist/
-  249  ls persist/
-  250  rm persist/
-  251  rmdir persist/
-  252  rmdir accessories/
-  253  rmdir accessories/*
-  254  rm -r accessories/*
-  255  rm -r accessories
-  256  ls
-  257  cd 
-  258  cd RaspberryPi/
-  259  git add .homebridge/
-  260  git rm --cached
-  261  mv .homebridge homebridge
-  262  ls
-  263  git add homebridge/
-  264  git commit -a -m "add homebridge config"
-  265  git push
-  266  cd homebridge/
-  267  history marge
-  268  history > history.txt
