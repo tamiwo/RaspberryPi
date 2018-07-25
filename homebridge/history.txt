@@ -1,0 +1,268 @@
+    1  node -v
+    2  sudo apt-get install -y nodejs
+    3  node -v
+    4  sudo apt-get install -y npm
+    5  npm -v
+    6  npm --version
+    7  sudo apt-get update
+    8  sudo apt-get install -y npm
+    9  npm update -g npm
+   10  sudo halt
+   11  sudo apt-get update
+   12  sudo apt-get upgrade
+   13  sudo apt-get install git make
+   14  g++ -v
+   15  g++-4.9 -v
+   16  sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.9 60 --slave /usr/bin/g++ g++ /usr/bin/g++-4.9
+   17  sudo apt-get install g++
+   18  node -v
+   19  sudo apt-get install libavahi-compat-libdnssd-dev
+   20  sudo npm install -g --unsafe-perm homebridge hap-nodejs node-gyp
+   21  cd /usr/local/lib/node_modules/homebridge/
+   22  sudo npm install --unsafe-perm bignum
+   23  cd /usr/local/lib/node_modules/hap-nodejs/node_modules/mdns
+   24  npm rebuild
+   25  cd /usr/lib/node_modules/hap-nodejs/node_modules/mdns
+   26  sudo npm install -g --unsafe-perm homebridge
+   27  cd
+   28  homebridge 
+   29  sudo npm install -g homebridge-cmd
+   30  homebridge 
+   31  vim 
+   32  vi ~/.homebridge/config.json
+   33  git clone https://github.com/netbuffalo/irmcli.git
+   34  sudo apt-get install python-pip
+   35  sudo pip install pyserial
+   36  ls
+   37  mkdir App
+   38  mv irmcli App
+   39  ls
+   40  cd App/
+   41  ls
+   42  mv irmcli irm
+   43  ls
+   44  cd irm
+   45  ls
+   46  mv irmcli.py irm.py
+   47  sudo python irm.py -c
+   48  git clone https://github.com/tamiwo/RaspberryPi
+   49  ls
+   50  mv RaspberryPi/irm/data .
+   51  ls
+   52  rmdir RaspberryPi
+   53  rm RaspberryPi/*
+   54  rm -r RaspberryPi/*
+   55  rm -r RaspberryPi
+   56  rm -rf RaspberryPi
+   57  ls
+   58  sudo python irm.py -p data/
+   59  ls data/
+   60  cat data/readme.md 
+   61  sudo python irm.py -c 
+   62  sudo python irm.py -s -f data/myroomLight_off.json
+   63  sudo python irm.py -p -f data/myroomLight_off.json
+   64  sudo python irm.py -c 
+   65  sudo python irm.py -s -f data/myroomLight_on.json
+   66  sudo python irm.py -p -f data/myroomLight_off.json
+   67  sudo python irm.py -p -f data/myroomLight_on.json
+   68  sudo python irm.py -p -f data/myroomLight_on.jsoncd
+   69  cd 
+   70  vi ~/.homebridge/config.json 
+   71  homebridge 
+   72  vi ~/.homebridge/config.json
+   73  homebridge 
+   74  vi ~/.homebridge/config.json
+   75  homebridge 
+   76  vi ~/.homebridge/config.json
+   77  homebridge 
+   78  vi ~/.homebridge/config.json
+   79  homebridge 
+   80  vi ~/.homebridge/config.json
+   81  homebridge 
+   82  sudo npm install -g homebridge-dash
+   83  sudo apt-get install vim
+   84  sudo apt-get install libpcap-dev
+   85  npm install -g --unsafe-perm homebridge
+   86  npm install -g homebridge-dash
+   87  cd App/
+   88  ls
+   89  mkdir dash
+   90  sudo 
+   91  cd dash/
+   92  vim package.json
+   93  sudo npm run scan
+   94  $ sudo tcpdump port bootps
+   95  sudo tcpdump port bootps
+   96  cd ..
+   97  rm -rf dash/*
+   98  rmdir dash/
+   99  cd
+  100  vim .homebridge/config.json 
+  101  homebridge 
+  102  sudo homebridge 
+  103  sudo ln -s /home/pi/.homebridge/config.json /root/.homebridge/config.json
+  104  ls -a /root/
+  105  sudo ls -a /root/
+  106  sudo ls -a /root/.homebridge/
+  107  sudo homebridge 
+  108  sudo 
+  109  su
+  110  sudo cd /root/
+  111  rm /home/pi/.homebridge/persist/
+  112  rm /home/pi/.homebridge/persist/*
+  113  sudo 
+  114  sudo ls  /home/pi/.homebridge
+  115  sudo ls  /home/pi/.homebridge/perlist
+  116  sudo ls  /home/pi/.homebridge/persist
+  117  sudo homebridge 
+  118  vim .homebridge/config.json
+  119  sudo homebridge 
+  120  cd App/irm/
+  121  pwd
+  122  sudo python irm.py -p -f data/myroomLight_off.json
+  123  ls data/
+  124  sudo python irm.py -p -f data/myroomLight_off.json
+  125  sudo python irm.py -p -f data/myroomLight_on.json
+  126  sudo python irm.py -p -f data/myroomLight.json
+  127  ls data/
+  128  sudo python irm.py -p -f data/myroomLight_off.json
+  129  sudo python irm.py -p -f /data/myroomLight_off.json
+  130  sudo python irm.py -p -f ./data/myroomLight_off.json
+  131  sudo python irm.py -p -f data/myroomLight.json
+  132  sudo python irm.py -p -f ./data/myroomLight_off.json
+  133  sudo python irm.py -p -f data/myroomLight_off.json
+  134  sudo python irm.py -c
+  135  sudo python irm.py -s -f data/myroomLight_off.json
+  136  sudo python irm.py -c
+  137  sudo python irm.py -s -f data/myroomLight_on.json
+  138  sudo python irm.py -p -f data/myroomLight_on.json
+  139  sudo python irm.py -p -f data/myroomLight_off.json
+  140  sudo python irm.py -p -f data/myroomLight_on.json
+  141  sudo python irm.py -c
+  142  sudo python irm.py -s -f data/myroomAircon_OnOff.json
+  143  sudo python irm.py -p -f data/myroomAirco.json
+  144  sudo python irm.py -c
+  145  sudo python irm.py -s -f data/myroomAudio_OnOff.json
+  146  sudo python irm.py -p -f data/myroomAudio_OnOff.json
+  147  sudo python irm.py -c
+  148  sudo python irm.py -p -f data/myroomAudio_AUX.json
+  149  sudo python irm.py -s -f data/myroomAudio_AUX.json
+  150  ps
+  151  ps -h
+  152  dmesg 
+  153  dmesg -T
+  154  ps -a
+  155  ps -A
+  156  sudo homebridge 
+  157  history 
+  158  history -h
+  159  history 1
+  160  sudo npm install -g homebridge-cofig-ui
+  161  sudo npm install -g homebridge-config-ui
+  162  sudo ng serve
+  163  sudo npm uninstall -g homebridge-config-ui
+  164  sudo npm install -g --unsafe-perm homebridge-config-ui-xç
+  165  npm outdated
+  166  sudo npm outdated
+  167  npm -g update npm
+  168  sudo npm -g update npm
+  169  karma start
+  170  sudo reboot
+  171  sudo npm -g update npm
+  172  sudo npm install -g --unsafe-perm homebridge-config-ui-x
+  173  ping 8.8.8.8
+  174  npm install -g npm
+  175  sudo npm install -g npm
+  176  sudo npm install -g --unsafe-perm homebridge-config-ui-x
+  177  sudo vim .homebridge/config.json 
+  178  sudo homebridge 
+  179  sudo homebridge -I
+  180  sudo halt
+  181  ls
+  182  cd App/
+  183  ls
+  184  irm
+  185  cd irm
+  186  ls
+  187  ls -al
+  188  sl
+  189  ls data/
+  190  vim data/readme.md 
+  191  ls -l
+  192  ls -l data >> data/readme.md 
+  193  vim data/readme.md 
+  194  git add -n
+  195  cd data
+  196  git add -n
+  197  git add .
+  198  ls
+  199  git commit -a -m "irmData追加"
+  200  git config --global user.email "tamiwo.otutama@gmail.com"
+  201  git config --global user.name "tamiwo"
+  202  git commit -a -m "irmData追加"
+  203  git cd ..
+  204  cd ..
+  205  ls
+  206  git push
+  207  ls
+  208  cd data
+  209  ls
+  210  ls -al
+  211  cd ..
+  212  rm .git
+  213  rm -rf .git
+  214  ls
+  215  git clone https://github.com/tamiwo/RaspberryPi/
+  216  ls
+  217  cp data/* RaspberryPi/irm/data/
+  218  cd RaspberryPi/
+  219  git add *
+  220  git commit -a -m "add irmData"
+  221  git push
+  222  cd 
+  223  ls 
+  224  cd App/
+  225  cd irm/
+  226  mv RaspberryPi /home/
+  227  sudo mv RaspberryPi /home/
+  228  cd
+  229  ls
+  230  cd ..
+  231  ls
+  232  mv RaspberryPi pi
+  233* sudo mv RaspberryPi p
+  234  ls
+  235  cd
+  236  s
+  237  ls
+  238  ls -al
+  239  cp .homebridge RaspberryPi
+  240  cp -r .homebridge RaspberryPi
+  241  cd RaspberryPi/
+  242  cd .homebridge/
+  243  ls
+  244  ls -al
+  245  vim config.json 
+  246  ls accessories/
+  247* vim accessories/cachedAccessorie
+  248  vim persist/
+  249  ls persist/
+  250  rm persist/
+  251  rmdir persist/
+  252  rmdir accessories/
+  253  rmdir accessories/*
+  254  rm -r accessories/*
+  255  rm -r accessories
+  256  ls
+  257  cd 
+  258  cd RaspberryPi/
+  259  git add .homebridge/
+  260  git rm --cached
+  261  mv .homebridge homebridge
+  262  ls
+  263  git add homebridge/
+  264  git commit -a -m "add homebridge config"
+  265  git push
+  266  cd homebridge/
+  267  history marge
+  268  history > history.txt
