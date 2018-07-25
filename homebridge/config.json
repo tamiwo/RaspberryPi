@@ -1,0 +1,44 @@
+{
+    "bridge": {
+        "name": "Homebridge",
+        "username": "AA:BB:CC:DD:EE:FF",
+        "port": 51826,
+        "pin": "031-45-154"
+    },
+
+    "platforms": [
+    	{
+	    "platform": "config",
+	    "name": "Config",
+	    "port": 8080,
+	    "sudo": false
+    	}
+    ],
+
+    "accessories": [
+       {
+           "accessory": "CMD",
+           "name": "Light",
+           "on_cmd": "sudo python /home/pi/App/irm/irm.py -p -f /home/pi/App/irm/data/myroomLight_on.json",
+           "off_cmd": "sudo python /home/pi/App/irm/irm.py -p -f /home/pi/App/irm/data/myroomLight_off.json"
+       },
+       {
+           "accessory": "CMD",
+           "name": "AirCon",
+           "on_cmd": "sudo python /home/pi/App/irm/irm.py -p -f /home/pi/App/irm/data/myroomAircon_OnOff.json",
+           "off_cmd": "sudo python /home/pi/App/irm/irm.py -p -f /home/pi/App/irm/data/myroomAircon_OnOff.json"
+       },
+       {
+           "accessory": "CMD",
+           "name": "Audio",
+           "on_cmd": "sudo python /home/pi/App/irm/irm.py -p -f /home/pi/App/irm/data/myroomAudio_AUX.json",
+           "off_cmd": "sudo python /home/pi/App/irm/irm.py -p -f /home/pi/App/irm/data/myroomAudio_OnOff.json"
+       },
+       {
+           "accessory": "Dash",
+           "name": "NESCAFE Button",
+	   "protocol": "udp",
+	   "mac" : "B4:7C:9C:33:4D:B7"
+       }
+   ]
+}
